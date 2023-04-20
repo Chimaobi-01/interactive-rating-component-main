@@ -14,7 +14,7 @@ main {
     background: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
-        color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
 }
 
 main {
@@ -28,9 +28,11 @@ main .thanks p {
     padding: 0 10px;
     margin-top: -30px;
 }
+
 .thanks h1 {
-   margin-top: -10px; 
+    margin-top: -10px;
 }
+
 .rating,
 .thanks {
     width: 80%;
@@ -46,11 +48,12 @@ main .thanks p {
 
 
 }
+
 .rating p {
     color: hsl(216, 12%, 54%);
 }
 
-.rating button {
+#btn {
     padding: 12px 0;
     border-radius: 20px;
     border: none;
@@ -59,8 +62,13 @@ main .thanks p {
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    cursor: pointer;
+}
 
-    
+#btn:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+
 }
 
 .user-rating {
@@ -72,10 +80,11 @@ main .thanks p {
 
 .user-rating li {
     list-style: none;
-        color: hsl(216, 12%, 54%);
+    color: hsl(216, 12%, 54%);
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
