@@ -88,6 +88,25 @@ main .thanks p {
 
 }
 
+.user-rating li:hover {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+
+}
+
+.light {
+    background: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%)  !important;
+    padding: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    
+    
+}
+
+
 .circle {
     background: hsl(217, 12%, 25%);
     padding: 13px;
