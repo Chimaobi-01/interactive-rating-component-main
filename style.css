@@ -139,12 +139,13 @@ main .thanks p {
 @media screen and (min-width: 610px) {
     .rating, .thanks {
       max-width: 370px;
-      height: 60%;
+     height: 58%;
+      max-height: 58%;
       padding: 25px;
       border-radius: 20px;
 
     }
     main .thanks p {
-        margin-top: -20px;
+        margin-top: -10px;
     }
   }
